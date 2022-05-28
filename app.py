@@ -93,8 +93,8 @@ test = {'orders': orders, 'revenue': revenue,
 test_DF = pd.DataFrame([test])
 
 # path = './model_scalar/'
-inner = pickle.load(open('./model_scaler/inner.sav'))
-outer = pickle.load(open('./model_scaler/outer.sav'))
+inner = pickle.load(open('./model_scaler/inner.sav', "rb"))
+outer = pickle.load(open('./model_scaler/outer.sav', "rb"))
 # model_scaler\xgb_reg_1.pkl
 model = pickle.load(open('./model_scaler/xgb_reg_1.pkl', "rb"))
 
