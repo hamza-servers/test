@@ -113,51 +113,51 @@ if orders2 > 0 and revenue2 > 0 and averagePrice2 > 0 and facebookPurchases2 > 0
 
 
 orders3 = st.number_input(
-    label="Monthly orders", step=1., format="%.4f")
+    label="Monthly orders 2", step=1., format="%.4f")
 st.write('You entered orders:', orders3)
 
 revenue3 = st.number_input(
-    label="Monthly revenue", step=1., format="%.4f")
+    label="Monthly revenue 2", step=1., format="%.4f")
 st.write('You entered revenue:', revenue3)
 
 averagePrice3 = st.number_input(
-    label="Monthly average price", step=1., format="%.4f")
+    label="Monthly average price 2", step=1., format="%.4f")
 st.write('You entered Average Price:', averagePrice3)
 
 facebookPurchases3 = st.number_input(
-    label="Monthly facebook purchases", step=1., format="%.4f")
+    label="Monthly facebook purchases 2", step=1., format="%.4f")
 st.write('You entered facebook purchases:', facebookPurchases3)
 
 facebookRevenue3 = st.number_input(
-    label="Monthly facebook revenue", step=1., format="%.4f")
+    label="Monthly facebook revenue 2", step=1., format="%.4f")
 st.write('You entered Facebook Revenue:', facebookRevenue3)
 
 googleSpend3 = st.number_input(
-    label="Monthly google spend", step=1., format="%.4f")
+    label="Monthly google spend 2", step=1., format="%.4f")
 st.write('You entered google spend:', googleSpend3)
 
 googlePurchases3 = st.number_input(
-    label="Monthly google purchases", step=1., format="%.4f")
+    label="Monthly google purchases 2", step=1., format="%.4f")
 st.write('You entered google purchases:', googlePurchases3)
 
 googleRevenue3 = st.number_input(
-    label="Monthly google revenue", step=1., format="%.4f")
+    label="Monthly google revenue 2", step=1., format="%.4f")
 st.write('You entered google revenue:', googleRevenue3)
 
 facebookROAS3 = st.number_input(
-    label="Monthly facebook ROAS", step=1., format="%.4f")
+    label="Monthly facebook ROAS 2", step=1., format="%.4f")
 st.write('You entered facebook ROAS:', facebookROAS3)
 
 googleCPA3 = st.number_input(
-    label="Monthly google CPA", step=1., format="%.4f")
+    label="Monthly google CPA 2", step=1., format="%.4f")
 st.write('You entered google CPA:', googleCPA3)
 
 googleROAS3 = st.number_input(
-    label="Monthly google ROAS", step=1., format="%.4f")
+    label="Monthly google ROAS 2", step=1., format="%.4f")
 st.write('You entered google ROAS:', googleROAS3)
 
 totalROAS3 = st.number_input(
-    label="Monthly total ROAS", step=1., format="%.4f")
+    label="Monthly total ROAS 2", step=1., format="%.4f")
 st.write('You entered total ROAS:', totalROAS3)
 
 #
@@ -210,47 +210,47 @@ if orders3 > 0 and revenue3 > 0 and averagePrice3 > 0 and facebookPurchases3 > 0
 
 
 orders4 = st.number_input(
-    label="Monthly orders", step=1., format="%.4f")
+    label="Monthly orders 3", step=1., format="%.4f")
 st.write('You entered orders:', orders4)
 
 revenue4 = st.number_input(
-    label="Monthly revenue", step=1., format="%.4f")
+    label="Monthly revenue 3", step=1., format="%.4f")
 st.write('You entered revenue:', revenue4)
 
 averagePrice4 = st.number_input(
-    label="Monthly average price", step=1., format="%.4f")
+    label="Monthly average price 3", step=1., format="%.4f")
 st.write('You entered Average Price:', averagePrice4)
 
 facebookPurchases4 = st.number_input(
-    label="Monthly facebook purchases", step=1., format="%.4f")
+    label="Monthly facebook purchases 3", step=1., format="%.4f")
 st.write('You entered facebook purchases:', facebookPurchases4)
 
 facebookRevenue4 = st.number_input(
-    label="Monthly facebook revenue", step=1., format="%.4f")
+    label="Monthly facebook revenue 3", step=1., format="%.4f")
 st.write('You entered Facebook Revenue:', facebookRevenue4)
 
 googleSpend4 = st.number_input(
-    label="Monthly google spend", step=1., format="%.4f")
+    label="Monthly google spend 3", step=1., format="%.4f")
 st.write('You entered google spend:', googleSpend4)
 
 googlePurchases4 = st.number_input(
-    label="Monthly google purchases", step=1., format="%.4f")
+    label="Monthly google purchases 3", step=1., format="%.4f")
 st.write('You entered google purchases:', googlePurchases4)
 
 googleRevenue4 = st.number_input(
-    label="Monthly google revenue", step=1., format="%.4f")
+    label="Monthly google revenue 3", step=1., format="%.4f")
 st.write('You entered google revenue:', googleRevenue4)
 
 facebookROAS4 = st.number_input(
-    label="Monthly facebook ROAS", step=1., format="%.4f")
+    label="Monthly facebook ROAS 3", step=1., format="%.4f")
 st.write('You entered facebook ROAS:', facebookROAS4)
 
 googleROAS4 = st.number_input(
-    label="Monthly google ROAS", step=1., format="%.4f")
+    label="Monthly google ROAS 3", step=1., format="%.4f")
 st.write('You entered google ROAS:', googleROAS4)
 
 totalROAS4 = st.number_input(
-    label="Monthly total ROAS", step=1., format="%.4f")
+    label="Monthly total ROAS 3", step=1., format="%.4f")
 st.write('You entered total ROAS:', totalROAS4)
 
 #
@@ -302,43 +302,43 @@ if orders4 > 0 and revenue4 > 0 and averagePrice4 > 0 and facebookPurchases4 > 0
 # st.set_option('deprecation.showfileUploaderEncoding', False)
 
 revenue5 = st.number_input(
-    label="Monthly revenue", step=1., format="%.4f")
+    label="Monthly revenue 4", step=1., format="%.4f")
 st.write('You entered revenue:', revenue5)
 
 averagePrice5 = st.number_input(
-    label="Monthly average price", step=1., format="%.4f")
+    label="Monthly average price 4", step=1., format="%.4f")
 st.write('You entered Average Price:', averagePrice5)
 
 facebookPurchases5 = st.number_input(
-    label="Monthly facebook purchases", step=1., format="%.4f")
+    label="Monthly facebook purchases 4", step=1., format="%.4f")
 st.write('You entered facebook purchases:', facebookPurchases5)
 
 facebookRevenue5 = st.number_input(
-    label="Monthly facebook revenue", step=1., format="%.4f")
+    label="Monthly facebook revenue 4", step=1., format="%.4f")
 st.write('You entered Facebook Revenue:', facebookRevenue5)
 
 googleSpend5 = st.number_input(
-    label="Monthly google spend", step=1., format="%.4f")
+    label="Monthly google spend 4", step=1., format="%.4f")
 st.write('You entered google spend:', googleSpend5)
 
 googlePurchases5 = st.number_input(
-    label="Monthly google purchases", step=1., format="%.4f")
+    label="Monthly google purchases 4", step=1., format="%.4f")
 st.write('You entered google purchases:', googlePurchases5)
 
 googleRevenue5 = st.number_input(
-    label="Monthly google revenue", step=1., format="%.4f")
+    label="Monthly google revenue 4", step=1., format="%.4f")
 st.write('You entered google revenue:', googleRevenue5)
 
 facebookROAS5 = st.number_input(
-    label="Monthly facebook ROAS", step=1., format="%.4f")
+    label="Monthly facebook ROAS 4", step=1., format="%.4f")
 st.write('You entered facebook ROAS:', facebookROAS5)
 
 googleROAS5 = st.number_input(
-    label="Monthly google ROAS", step=1., format="%.4f")
+    label="Monthly google ROAS 4", step=1., format="%.4f")
 st.write('You entered google ROAS:', googleROAS5)
 
 totalROAS5 = st.number_input(
-    label="Monthly total ROAS", step=1., format="%.4f")
+    label="Monthly total ROAS 4", step=1., format="%.4f")
 st.write('You entered total ROAS:', totalROAS5)
 
 #
@@ -390,39 +390,39 @@ if revenue5 > 0 and averagePrice5 > 0 and facebookPurchases5 > 0 and facebookRev
 
 
 revenue6 = st.number_input(
-    label="Monthly revenue", step=1., format="%.4f")
+    label="Monthly revenue 5", step=1., format="%.4f")
 st.write('You entered revenue:', revenue6)
 
 averagePrice6 = st.number_input(
-    label="Monthly average price", step=1., format="%.4f")
+    label="Monthly average price 5", step=1., format="%.4f")
 st.write('You entered Average Price:', averagePrice6)
 
 facebookPurchases6 = st.number_input(
-    label="Monthly facebook purchases", step=1., format="%.4f")
+    label="Monthly facebook purchases 5", step=1., format="%.4f")
 st.write('You entered facebook purchases:', facebookPurchases6)
 
 facebookRevenue6 = st.number_input(
-    label="Monthly facebook revenue", step=1., format="%.4f")
+    label="Monthly facebook revenue 5", step=1., format="%.4f")
 st.write('You entered Facebook Revenue:', facebookRevenue6)
 
 googleSpend6 = st.number_input(
-    label="Monthly google spend", step=1., format="%.4f")
+    label="Monthly google spend 5", step=1., format="%.4f")
 st.write('You entered google spend:', googleSpend6)
 
 googlePurchases6 = st.number_input(
-    label="Monthly google purchases", step=1., format="%.4f")
+    label="Monthly google purchases 5", step=1., format="%.4f")
 st.write('You entered google purchases:', googlePurchases6)
 
 facebookROAS6 = st.number_input(
-    label="Monthly facebook ROAS", step=1., format="%.4f")
+    label="Monthly facebook ROAS 5", step=1., format="%.4f")
 st.write('You entered facebook ROAS:', facebookROAS6)
 
 googleROAS6 = st.number_input(
-    label="Monthly google ROAS", step=1., format="%.4f")
+    label="Monthly google ROAS 5", step=1., format="%.4f")
 st.write('You entered google ROAS:', googleROAS6)
 
 totalROAS6 = st.number_input(
-    label="Monthly total ROAS", step=1., format="%.4f")
+    label="Monthly total ROAS 5", step=1., format="%.4f")
 st.write('You entered total ROAS:', totalROAS6)
 
 #
