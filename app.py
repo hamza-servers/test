@@ -84,8 +84,8 @@ if orders2 > 0 and revenue2 > 0 and averagePrice2 > 0 and facebookPurchases2 > 0
     test_DF2 = pd.DataFrame([test2])
 
     # path2 = '/model_scalar/'
-    inner2 = pickle.load('model_scalar/inner_1.gz', 'rb')
-    outer2 = pickle.load('model_scalar/outer.gz', 'rb')
+    inner2 = pickle.load(open('model_scalar/inner_1.gz', 'rb'))
+    outer2 = pickle.load(open('model_scalar/outer.gz', 'rb'))
 
     model2 = pickle.load(open('model_scalar/xgb_reg_1.pkl', "rb"))
 
@@ -180,8 +180,8 @@ if orders3 > 0 and revenue3 > 0 and averagePrice3 > 0 and facebookPurchases3 > 0
     test_DF3 = pd.DataFrame([test3])
 
     # path3 = '/model_scalar/'
-    inner3 = pickle.load('model_scalar/inner_2.gz', 'rb')
-    outer3 = pickle.load('model_scalar/outer.gz', 'rb')
+    inner3 = pickle.load(open('model_scalar/inner_2.gz', 'rb'))
+    outer3 = pickle.load(open('model_scalar/outer.gz', 'rb'))
 
     model3 = pickle.load(open('model_scalar/xgb_reg_2.pkl', "rb"))
 
@@ -273,8 +273,8 @@ if orders4 > 0 and revenue4 > 0 and averagePrice4 > 0 and facebookPurchases4 > 0
     test_DF4 = pd.DataFrame([test4])
 
     # path4 = '/model_scalar/'
-    inner4 = pickle.load('model_scalar/inner_3.gz', 'rb')
-    outer4 = pickle.load('model_scalar/outer.gz', 'rb')
+    inner4 = pickle.load(open('model_scalar/inner_3.gz', 'rb'))
+    outer4 = pickle.load(open('model_scalar/outer.gz', 'rb'))
 
     model4 = pickle.load(open('model_scalar/xgb_reg_3.pkl', "rb"))
 
@@ -361,8 +361,8 @@ if revenue5 > 0 and averagePrice5 > 0 and facebookPurchases5 > 0 and facebookRev
     test_DF55 = pd.DataFrame([test5])
 
     # path5 = '/model_scalar/'
-    inner5 = pickle.load('model_scalar/inner_4.gz', 'rb')
-    outer5 = pickle.load('model_scalar/outer.gz', 'rb')
+    inner5 = pickle.load(open('model_scalar/inner_4.gz', 'rb'))
+    outer5 = pickle.load(open('model_scalar/outer.gz', 'rb'))
 
     model5 = pickle.load(open('model_scalar/xgb_reg_4.pkl', "rb"))
 
@@ -445,8 +445,8 @@ if revenue6 > 0 and averagePrice6 > 0 and facebookPurchases6 > 0 and facebookRev
     test_DF6 = pd.DataFrame([test6])
 
     # path6 = '/model_scalar/'
-    inner6 = pickle.load('model_scalar/inner_5.gz', 'rb')
-    outer6 = pickle.load('model_scalar/outer.gz', 'rb')
+    inner6 = pickle.load(open('model_scalar/inner_5.gz', 'rb'))
+    outer6 = pickle.load(open('model_scalar/outer.gz', 'rb'))
 
     model6 = pickle.load(open('model_scalar/xgb_reg_5.pkl', "rb"))
 
