@@ -12,6 +12,8 @@ st.title("MARKETING SPEND PREDICTION MODEL")
 st.write("")
 st.write("Please enter values with respect to monthly data ...")
 
+st.header('Feature Set 1')
+
 orders2 = st.number_input(
     label="Monthly orders 1", step=1., format="%.4f")
 st.write('You entered orders:', orders2)
@@ -111,6 +113,7 @@ if orders2 > 0 and revenue2 > 0 and averagePrice2 > 0 and facebookPurchases2 > 0
 # }
 # st.set_option('deprecation.showfileUploaderEncoding', False)
 
+st.header('Feature Set 2')
 
 orders3 = st.number_input(
     label="Monthly orders 2", step=1., format="%.4f")
@@ -208,6 +211,7 @@ if orders3 > 0 and revenue3 > 0 and averagePrice3 > 0 and facebookPurchases3 > 0
 # }
 # st.set_option('deprecation.showfileUploaderEncoding', False)
 
+st.header('Feature Set 3')
 
 orders4 = st.number_input(
     label="Monthly orders 3", step=1., format="%.4f")
@@ -301,6 +305,8 @@ if orders4 > 0 and revenue4 > 0 and averagePrice4 > 0 and facebookPurchases4 > 0
 # }
 # st.set_option('deprecation.showfileUploaderEncoding', False)
 
+st.header('Feature Set 4')
+
 revenue5 = st.number_input(
     label="Monthly revenue 4", step=1., format="%.4f")
 st.write('You entered revenue:', revenue5)
@@ -388,6 +394,7 @@ if revenue5 > 0 and averagePrice5 > 0 and facebookPurchases5 > 0 and facebookRev
 # }
 # st.set_option('deprecation.showfileUploaderEncoding', False)
 
+st.header('Feature Set 5')
 
 revenue6 = st.number_input(
     label="Monthly revenue 5", step=1., format="%.4f")
