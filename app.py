@@ -79,7 +79,7 @@ if orders2 > 0 and revenue2 > 0 and averagePrice2 > 0 and facebookPurchases2 > 0
     test2 = {'orders': orders2, 'revenue': revenue2,
              'average_price': averagePrice2, 'fb_purchases': facebookPurchases2, 'fb_revenue': facebookRevenue2,
              'ga_spend': googleSpend2, 'ga_purchases': googlePurchases2, 'ga_revenue': googleRevenue2,
-             'fb_roas': facebookROAS2, 'ga_roas': googleROAS2, 'ga_cpa': googleCPA2, 'roas': totalROAS2, 'target_revenue': targetRevenue2}
+             'fb_roas': facebookROAS2, 'ga_cpa': googleCPA2, 'ga_roas': googleROAS2, 'roas': totalROAS2, 'target_revenue': targetRevenue2}
 
     test_DF2 = pd.DataFrame([test2])
 
@@ -91,7 +91,7 @@ if orders2 > 0 and revenue2 > 0 and averagePrice2 > 0 and facebookPurchases2 > 0
 
     test_DF2 = pd.DataFrame(inner2.transform(test_DF2))
     test_DF2 = test_DF2.rename(columns={0: 'orders', 1: 'revenue', 2: 'average_price', 3: 'fb_purchases',
-                                        4: 'fb_revenue', 5: 'ga_spend', 6: 'ga_purchases', 7: 'ga_revenue', 8: 'fb_roas', 9: 'ga_roas', 10: 'ga_cpa', 11: 'roas', 12: 'target_revenue'})
+                                        4: 'fb_revenue', 5: 'ga_spend', 6: 'ga_purchases', 7: 'ga_revenue', 8: 'fb_roas', 9: 'ga_cpa', 10: 'ga_roas', 11: 'roas', 12: 'target_revenue'})
 
     pred2 = model2.predict(test_DF2)
     pred2 = pred2.reshape(-1, 1)
@@ -175,7 +175,7 @@ if orders3 > 0 and revenue3 > 0 and averagePrice3 > 0 and facebookPurchases3 > 0
     test3 = {'orders': orders3, 'revenue': revenue3,
              'average_price': averagePrice3, 'fb_purchases': facebookPurchases3, 'fb_revenue': facebookRevenue3,
              'ga_spend': googleSpend3, 'ga_purchases': googlePurchases3, 'ga_revenue': googleRevenue3,
-             'fb_roas': facebookROAS3, 'ga_roas': googleROAS3, 'ga_cpa': googleCPA3, 'roas': totalROAS3}
+             'fb_roas': facebookROAS3, 'ga_cpa': googleCPA3, 'ga_roas': googleROAS3, 'roas': totalROAS3}
 
     test_DF3 = pd.DataFrame([test3])
 
@@ -188,7 +188,7 @@ if orders3 > 0 and revenue3 > 0 and averagePrice3 > 0 and facebookPurchases3 > 0
     test_DF3 = pd.DataFrame(inner3.transform(test_DF3))
 
     test_DF3 = test_DF3.rename(columns={0: 'orders', 1: 'revenue', 2: 'average_price', 3: 'fb_purchases',
-                                        4: 'fb_revenue', 5: 'ga_spend', 6: 'ga_purchases', 7: 'ga_revenue', 8: 'fb_roas', 9: 'ga_roas', 10: 'ga_cpa', 11: 'roas'})
+                                        4: 'fb_revenue', 5: 'ga_spend', 6: 'ga_purchases', 7: 'ga_revenue', 8: 'fb_roas', 9: 'ga_cpa', 10: 'ga_roas', 11: 'roas'})
 
     pred3 = model3.predict(test_DF3)
     pred3 = pred3.reshape(-1, 1)
@@ -463,3 +463,9 @@ if revenue6 > 0 and averagePrice6 > 0 and facebookPurchases6 > 0 and facebookRev
 
     st.write('Facebook Marketing Spend Budget :', totalFB_Revenue6)
     st.write('Google Marketing Spend Budget :', totalGA_Revenue6)
+
+
+['orders', 'revenue', 'average_price', 'fb_purchases', 'fb_revenue', 'ga_spend',
+    'ga_purchases', 'ga_revenue', 'fb_roas', 'ga_cpa', 'ga_roas', 'roas', 'target_revenue']
+['orders', 'revenue', 'average_price', 'fb_purchases', 'fb_revenue', 'ga_spend',
+    'ga_purchases', 'ga_revenue', 'fb_roas', 'ga_roas', 'ga_cpa', 'roas', 'target_revenue']
