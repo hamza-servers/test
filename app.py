@@ -13,55 +13,55 @@ st.write("")
 st.write("Please enter values with respect to monthly data ...")
 
 orders2 = st.number_input(
-    label="Monthly orders", step=1., format="%.4f")
+    label="Monthly orders 1", step=1., format="%.4f")
 st.write('You entered orders:', orders2)
 
 revenue2 = st.number_input(
-    label="Monthly revenue", step=1., format="%.4f")
+    label="Monthly revenue 1", step=1., format="%.4f")
 st.write('You entered revenue:', revenue2)
 
 averagePrice2 = st.number_input(
-    label="Monthly average price", step=1., format="%.4f")
+    label="Monthly average price 1", step=1., format="%.4f")
 st.write('You entered Average Price:', averagePrice2)
 
 facebookPurchases2 = st.number_input(
-    label="Monthly facebook purchases", step=1., format="%.4f")
+    label="Monthly facebook purchases 1", step=1., format="%.4f")
 st.write('You entered facebook purchases:', facebookPurchases2)
 
 facebookRevenue2 = st.number_input(
-    label="Monthly facebook revenue", step=1., format="%.4f")
+    label="Monthly facebook revenue 1", step=1., format="%.4f")
 st.write('You entered Facebook Revenue:', facebookRevenue2)
 
 googleSpend2 = st.number_input(
-    label="Monthly google spend", step=1., format="%.4f")
+    label="Monthly google spend 1", step=1., format="%.4f")
 st.write('You entered google spend:', googleSpend2)
 
 googlePurchases2 = st.number_input(
-    label="Monthly google purchases", step=1., format="%.4f")
+    label="Monthly google purchases 1", step=1., format="%.4f")
 st.write('You entered google purchases:', googlePurchases2)
 
 googleRevenue2 = st.number_input(
-    label="Monthly google revenue", step=1., format="%.4f")
+    label="Monthly google revenue 1", step=1., format="%.4f")
 st.write('You entered google revenue:', googleRevenue2)
 
 facebookROAS2 = st.number_input(
-    label="Monthly facebook ROAS", step=1., format="%.4f")
+    label="Monthly facebook ROAS 1", step=1., format="%.4f")
 st.write('You entered facebook ROAS:', facebookROAS2)
 
 googleCPA2 = st.number_input(
-    label="Monthly google CPA", step=1., format="%.4f")
+    label="Monthly google CPA 1", step=1., format="%.4f")
 st.write('You entered google CPA:', googleCPA2)
 
 googleROAS2 = st.number_input(
-    label="Monthly google ROAS", step=1., format="%.4f")
+    label="Monthly google ROAS 1", step=1., format="%.4f")
 st.write('You entered google ROAS:', googleROAS2)
 
 totalROAS2 = st.number_input(
-    label="Monthly total ROAS", step=1., format="%.4f")
+    label="Monthly total ROAS 1", step=1., format="%.4f")
 st.write('You entered total ROAS:', totalROAS2)
 
 targetRevenue2 = st.number_input(
-    label="Monthly target revenue", step=1., format="%.4f")
+    label="Monthly target revenue 1", step=1., format="%.4f")
 st.write('You entered target revenue:', targetRevenue2)
 
 #
