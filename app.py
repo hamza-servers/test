@@ -61,8 +61,8 @@ totalROAS2 = st.number_input(
 st.write('You entered total ROAS:', totalROAS2)
 
 targetRevenue2 = st.number_input(
-    label="Monthly total ROAS", step=1., format="%.4f")
-st.write('You entered total ROAS:', targetRevenue2)
+    label="Monthly target revenue", step=1., format="%.4f")
+st.write('You entered target revenue:', targetRevenue2)
 
 #
 # month = monthdic[Month]
